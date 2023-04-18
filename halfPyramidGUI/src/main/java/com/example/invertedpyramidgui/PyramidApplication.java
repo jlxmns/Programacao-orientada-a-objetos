@@ -12,7 +12,7 @@ public class PyramidApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(PyramidApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 600);
-        stage.setTitle("Inverted Pyramid");
+        stage.setTitle("Half Pyramid");
         stage.setScene(scene);
         stage.show();
     }
