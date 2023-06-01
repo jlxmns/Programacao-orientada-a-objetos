@@ -1,0 +1,77 @@
+#pane {
+    -fx-background-color: #1c3144;
+}
+
+#vbox {
+    -fx-background-color: #1c3144;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+}
+
+#hbox {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+#scrollPane {
+    -fx-pref-width: 700px;
+}
+
+#labelBig {
+    -fx-alignment: center;
+    -fx-text-fill: #F7F7FF;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+#labelSmall {
+    -fx-text-fill: #F7F7FF;
+    -fx-font-size: 12px;
+}
+
+#labelForButton {
+    -fx-background-color:  #F7F7FF;
+    -fx-label-padding:  4,2,4,2;
+    -fx-alignment: center;
+}
+
+#button {
+    -fx-pref-height: 40px;
+    -fx-pref-width: 105px;
+    -fx-padding: 16px 32px;
+    -fx-text-fill: #F7F7FF;
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bold;
+    -fx-background-color:  #3F88C5;
+    -fx-font-size: 11px;
+    -fx-cursor: pointer;
+    -fx-text-alignment: center;
+    -fx-background-radius: 0px;
+}
+
+#button:hover {
+    -fx-background-color: #336D9C;
+}
+
+/* #table {
+    -fx-background-color: #3F88C5;
+}
+
+#table-view {
+    -fx-background-color: #F7F7FF;
+}
+
+#table-view:odd {
+    -fx-background-color: transparent;
+} */
+
+/*
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}*/
